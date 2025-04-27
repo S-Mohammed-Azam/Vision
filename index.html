@@ -1,61 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Vision AI </title>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+        
+       #cont{
+           font-size:20px;
+           font-size: ;
+           color: ;
+           margin: 20px;
+           text-align: center;
+           margin-top: ;
+       } 
+
+  #try{
+           font-size:50px;
+           font-size: ;
+           color: ;
+           margin: 20px;
+           text-align: center;
+           margin-top: ;
+       } 
+
+
+.background-box {
+  font-family: Arial, sans-serif;
+  background: ;
+  background-image:        url('file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/chatbot/azamchat/download (3).jpeg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto; /* Set height here */
+  width: auto; /* or any width you want */
+  margin: 0px;
+  border-radius: 25px;
+  top: 0;
+}
+
+        body {
+        font-family: Arial, sans-serif;
+        background-color: black;
+        background-image: 
+        margin-right:0auto;
+       margin-left:0px;
+        width: 6px;
+            height: 4px;
+
+        
+             }
+
+        #home{
+        text-align: center;
+           }
+           
+       #myImage {
+  width: 60px;
+  height: auto;
+  margin-top: 30px ;
+  margin-left: 40px ;
+}
+       #theem {
+  width: 60px;
+  height: auto;
+  float: right;
+  margin-top: 30px ;
+  margin-right: 40px ;
   
-  
-  <style>
-       * {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f1f1f1;
-      display: flex;
-      flex-direction: column;
-      height: 100vh;
-      background: #1e1e2f;
-      color: #f1f1f1;
-      font-family: ', sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
-   
-    .chat-message span.time {
-      font-size: 9px;
-      position: absolute;
-      bottom: 0px;
-      right: 15%;
-      
-      color: #999;
-    }
-    .bot {
-      color: blue;
-      animation: typing 1.0s ease-out;
-    }
-    .user {
-      color: green;
-      text-align: right;
-      animation: typing 1.0s ease-out;
-    }
-    @keyframes typing {
-      from { opacity: 0; transform: translateY(5px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    
- 
-    
-    /* The slide panel */
+  padding-top: 10px;  
+       }
+        
+        /* The slide panel */
     .side-panel {
-      height: 50%;
+      height: 100%;
       width: 0;
       position: fixed;
       top: 0;
       left: 0;
-      background-color: #ff009d;
+      background-color: #ff6ae7;
       overflow-x: hidden;
       transition: 0.3s;
       padding-top: 60px;
@@ -82,561 +104,268 @@
 
     .close-btn {
       position: absolute;
-      top: 10px;
-      right: 20px;
-      font-size: 30px;
+      top: 20px;
+      right: 40px;
+      font-size: 80px;
       cursor: pointer;
     }
+    .cont{
+        margin: 25px;
+        text-align: center; 
+    }
     
-    #slid{
-  position: fixed;
-  top: 35px;
-  left: 6%;
-  width: 32px;
-  height: 32px;
-  border-radius: 7px;
-  padding: 3px;
-  background-color: #ff007395;
-  box-shadow: 0 0 30px rgba(255, 0, 90, 0.5),
-                  0 0 60px rgba(255, 140, 0, 0.5),
-                  0 0 90px rgba(140, 0, 255, 0.4);
-}
-
-#wed {
-  position: fixed;
-  top: 35px;
-  right: 6%;
-  width: 32px;
-  height: 32px;
-  border-radius: 50px;
-  padding: 3px;
-  background-color: #ff007395;
-  box-shadow: 0 0 30px rgba(255, 0, 90, 0.5),
-                  0 0 60px rgba(255, 140, 0, 0.5),
-                  0 0 90px rgba(140, 0, 255, 0.4);
-}
-
+    #my-button {
+      background-color: #662bff;
+      border: none;
+      color: white;
+      width: 280px;
+      height: 80px;
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 40px;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background-color 0.3sl ease;
+      display: block; margin: 0 auto;
+      margin-bottom:20px;
+    }
+   
     
-.icon {
-  position: fixed;
+   
+  .start {
+    margin-left: 43%; /* default for mobile/tablets */
+  }
+
+  /* Media query for desktops (screen width 1024px and above) */
+  @media screen and (min-width: 1024px) {
+    .start {
+      margin-left: 50%;/* more margin on desktop */
+    }
+  }
+  
+  #home{
+      color: white;
+  }
+  
+  .footer {
+      background-color: #1e1e1e;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      font-size: 14px;
+      border-radius: 25px;
+    }
+
+    .footer a {
+      color: #4caf50;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer .social-icons {
+      margin-top: 15px;
+    }
+
+    .footer .social-icons a {
+      margin: 0 8px;
+      font-size: 10px;
+    }
+
+    @media screen and (min-width: 768px) {
+      .footer {
+        display: ;
+        justify-content: space-between;
+        align-items: center;
+        text-align: create;
+        padding: 40px 80px;
+      }
+
+      .footer .social-icons {
+        margin-top: 20px;
+      }
+    }
+    
+   #head{
+       font-size:55px;
+       color: ;
+       margin: 12px;
+       text-align: center;
+       margin-top:14%;
+   }
+   
+   .icon {
+  position: ;
   display: flex;
   align-items: center;
   gap: 10px; /* space between image and text */
 }
 
 .icon img {
-  width: 65px;
-  height: 65px;
-  margin-left:86px;
+  width: 160px;
+  height: 160px;
+  margin-left:320px;
+  margin-top:70px;
 }
 
 .text-group {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
 }
 
 .text-group h1 {
-  color: #b200ff; /* adjust as needed */
+  color: black; /* adjust as needed */
+  padding-top: 80px;
+  font-size: 60px;
   margin: 0;
-  font-size: 30px;
 }
 
 .text-group p {
-  color: white; /* or another color */
+  color: black; /* or another color */
   margin: 0px 0 0 0;
-  font-size: 13px;
+  font-size: 26px;
 }
 
-  #chat {
-      position: fixed;
-      top:80px;
-      left:6%;
-      background: #2a2a40;
-      border-radius: 20px;
-      padding: 20px;
-      height: 55%;
-      width: 88%;
-      overflow-y: auto;
-      margin-bottom: 15px;
-      margin-top: 20px;
-      
-      box-shadow: 0 0 30px rgba(255, 0, 90, 0.5),
-                  0 0 60px rgba(255, 140, 0, 0.5),
-                  0 0 90px rgba(140, 0, 255, 0.4);
-     
-      display: flex;
-      flex-direction: column;
-    }
-
-    #chat p {
-      padding: 20px;
-      padding-right: 20px;
-      border-radius: 8px;
-      margin: 10px ;
-      max-width: 80%;
-      word-wrap: break-word;
-      
-      border-radius: 20px;
-      
-      
-    }
-    .user {
-      margin-top: 10px ;
-      border-radius: 20px;
-      background: #ff5589b2;
-      align-self: flex-end;
-      color:#f1f1f1 ;
-      
-      (border-radius): 20px;
-      padding: 10px; 
-      padding-left: 20px ;
-      padding-right:20px;
-    }
-
-    .bot {
-      margin-top: 10px ;
-      background: #44475a;
-      align-self: flex-start;
-      color: #f1f1f1;
-     
-      border-radius: 20px;
-      padding: 10px;
-      padding-left: 20px ;
-      padding-right:20px;
-    } 
-    
-     .chat-message {
-      margin: 10px 0;
-      position: relative;
-    }
-    
-    textarea[type="text"] {
-      width: calc(100% - 130px);
-      padding-top: 30px;
-      border: none;
-      border-radius: 5px;
-      background: #44475a;
-      color: white;
-      font-size: 15px;
-    
-  position: fixed;
-  bottom: 60px;
-  left: 3%;
-  width: 94%;
-  height: 90px;
-  background-color: #1e1e2f; /* match your theme */
-  padding-left: 15px;
-  padding-right: 90px ;
-  padding-bottom: 50px ;
-  display: flex;
-  border:none;
-  border-radius: 25px;
-  gap: 10px;
-  z-index: 10;
-
-box-shadow: 0 0 10px rgba(255, 0, 90, 0.5),
-                  0 0 20px rgba(255, 100, 10, 0.5),
-                  0 0 30px rgba(240, 0, 255, 0.4);
-      transition: box-shadow 0.3s ease-in-out;
-    }
-    
-    textarea[type="text"]:focus {
-      outline: none;
-      box-shadow: 0 0 20px rgba(255, 0, 90, 0.8),
-                  0 0 40px rgba(255, 140, 0, 0.8),
-                  0 0 60px rgba(140, 0, 255, 0.6);
-    }
-    
-    #send1 {
-  position: fixed; /* or relative if needed */
-  bottom: 79px; /* Adjust this to fine-tune the position above the input */
-  right:3px;
-  transform: translateX(-50%);
-  height: 52px;
-  width: 52px;
-  border: ;
-  border-radius: 50%; /* makes it circular if it's not already */
-  z-index: 10; /* ensures it's above the input box */
-  background-color: white ;
-  box-shadow: 0 0 30px rgba(255, 0, 90, 0.5),
-                  0 0 60px rgba(255, 140, 0, 0.5),
-                  0 0 90px rgba(140, 0, 255, 0.4);
-      transition: box-shadow 0.3s ease-in-out;
-}
-
-
-#speak{
-  position: fixed;
-  bottom: 10px;
-  left: 5%;
-  width: 28%;
-  height: 40px;
-  font-size:15px;
-  background-color: black ;
-  border-radius: 30px;
-  color: white;
-  border: none;
-  box-shadow: 0 0 30px rgba(255, 0, 90, 0.5),
-                  0 0 60px rgba(255, 140, 0, 0.5),
-                  0 0 90px rgba(140, 0, 255, 0.4);
-}
-
-#speak:hover {
-      outline: none;
-      box-shadow: 0 0 60px rgba(255, 0, 90, 0.8),
-                  0 0 90px rgba(255, 140, 0, 0.8),
-                  0 0 135px rgba(140, 0, 255, 0.6);
-    }
-
-#rec{
-  position: fixed;
-  bottom: 10px;
-  left: 36%;
-  width: 28%;
-  height: 40px;
-  background-color: black ;
-  border-radius: 30px;
-  color: white;
-  font-size: 15px;
-  border: none;
-  box-shadow: 0 0 30px rgba(255, 0, 90, 0.5),
-                  0 0 60px rgba(255, 140, 0, 0.5),
-                  0 0 90px rgba(140, 0, 255, 0.4);
-}
-
-#tts{
-  position: fixed;
-  bottom: 10px;
-  left: 67%;
-  width: 28%;
-  height: 40px;
-  background-color: black ;
-  border-radius: 30px;
-  color: white;
-  font-size: 15px;
-  border: none;
-  box-shadow: 0 0 30px rgba(255, 0, 90, 0.5),
-                  0 0 60px rgba(255, 140, 0, 0.5),
-                  0 0 90px rgba(140, 0, 255, 0.4);
-}
-
-
-  </style>
+    </style>
 </head>
-<body id="body">
-    
-    
-    
-    
-<div class="icon" >
-    <img src="13895116.png" id="icon" alt="">
-    
-
-<div class="text-group">
+<body>
+    <div id="" class="background-box">
+    <img  src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/chatbot/azamchat/7175356.png"  id="myImage" onclick="openPanel()">
+    <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/chatbot/azamchat/1812660.png" alt="" id="theem" onclick="changeImage()">
+    <div id="text">
+        <img src="" alt="" style="display: block; margin: 0 auto;">
+        <br>
+       
+       <div class="icon" >
+    <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/chatbot/azamchat/12916388.png" id="icon" alt="">
+       <div class="text-group">
     <h1>Vision</h1>
     <p id="apex">.&nbsp &nbsp&nbsp&nbsp1.0.0 Apex</p> <!-- This is the new text below the heading -->
     
   </div>
-  <br>
-  <br>
+  </div>
   
-  </div>
-<div>
-<img src="1812660.png"  id="wed" alt="" onclick="changeImage()">
-</div>
-
- <img src="7175356.png" id="slid" alt="" onclick="openPanel()">
-  <div class="chat-box" id="chat"></div>
+  
+  
+    <h1 id="head"> Welcome to Vision – Your Smartest Chat Companion</h1>
+    <br>
+    <h6 id="cont">Meet Vision, your next-generation AI chatbot designed to make conversations more intelligent, human-like, and helpful. Whether you need assistance, a friend to talk to, or just some smart fun, Vision is always ready. </h6>
+    <br>
+    <h2 id="try">Try Vision Now</h2>
     
- <div id="myPanel" class="side-panel">
-  <span class="close-btn" onclick="closePanel()">&times;</span>
-  <a href="#" onclick="importMemory()">import</a>
-  <a href="#" onclick="resetMemory()">reset memory</a>
-  <a href="#" onclick="exportMemory()">export</a>
- 
-</div>
-
-      <textarea type="text" id="userInput" placeholder="Type your message..."></textarea>
-      <img src="Screenshot_20250418-182257~4.jpg" id="send1" alt="" onclick="send()">
-    
-    
-      
-      <button id="speak" onclick="toggleMic()">Mic</button>
+     <button class="start" id="my-button" onclick="location.href='Vision.html'">Start now</button>
+     <p> . </p>
+     <br>
+     
+     
     </div>
-    
-      <button id="tts" onclick="toggleTTS()">TTS: <span id="ttsStatus">On</span></button>
-      
-      <button id="rec" onclick="clearChat()">re Chat</button>
-    
-  </div>
+    <!-- Slide panel -->
+<div id="myPanel" class="side-panel">
+  <span class="close-btn" onclick="closePanel()">&times;</span>
+  <!--<a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>-->
+</div>
 
-  <input type="file" id="fileInput" style="display:none" />
-  <div class="chat-container">
-      
-  </div>
-    
-    <script type="module">
-    import { GoogleGenerativeAI } from "https://esm.run/@google/generative-ai";
-    const apiKey = "AIzaSyCDyh9Eolq1CBXHI-wAIbCw08TMf1cXYcU"; // Replace with your actual key
-    const genAI = new GoogleGenerativeAI(apiKey);
-    const model = await genAI.getGenerativeModel({ model: "models/gemini-1.5-flash" });
+</div>
 
-    // Built-in memory dictionary
-    const builtInMemory = {
-      "what is your name": "I am Vision AI.",
-      "who created you": "I was created by Mohammed Azam.",
-      "what is the capital of france": "Paris.",
-    };
+<div id="home">
+    <br>
+    <h2>What Can Vision Do?</h2>
 
-    window.send = async function () {
-      const input = document.getElementById("userInput");
-      const question = input.value.trim().toLowerCase();
-      if (!question) return;
+<p>Answer Your Questions – From fun facts to serious inquiries
+<br>
 
-      addMessage("",question, "user");
-      input.value = "";
+talk Like a Human – Natural, fluid conversation
+<br>
 
-      // Check built-in memory first
-      if (builtInMemory[question]) {
-        addMessage("Gemini (Memory)", builtInMemory[question], "bot");
-        return;
-      }
+Help With Tasks – Notes, reminders, and to-do lists
+<br>
 
-      // Fallback to Gemini if not in memory
-      try {
-        const modifiedPrompt =" (50 words is your answer limit so,)" + question ;
-        const result = await model.generateContent(modifiedPrompt);
-        const answer = result.response.text();
-        addMessage("Gemini", answer, "bot");
-      } catch (err) {
-        console.error(err);
-        addMessage("Gemini", "Error fetching response.", "bot");
-      }
-    };
+Stay With You – Available anytime, anywhere
 
-    function addMessage(sender, msg, className) {
-      const div = document.createElement("div");
-      div.className = className;
-      div.innerHTML = `${msg}`;
-      document.getElementById("chat").appendChild(div);
-      document.getElementById("chat").scrollTop = document.getElementById("chat").scrollHeight;
-    }
-  </script>
 
-  <script>
-    let memory = {
-      "what is your name": "I am Vision.",
-      "what is ai": "AI is the simulation of human intelligence by machines.",
-      "what is javascript": "JavaScript is a programming language used for web development.",
-      "tell me a quote": "“The best way to predict the future is to invent it.” – Alan Kay"
-    };
+</p>
+---
 
-    let stored = JSON.parse(localStorage.getItem("visionMemory"));
-    if (stored) Object.assign(memory, stored);
+<h2>Why Choose Vision?</h2>
+<p>
+24/7 Availability – Vision never sleeps
+<br>
+Smart & Evolving – Learns from interactions to improve
+<br>
+Safe & Private – Your data stays yours
+<br>
+Easy to Use – No downloads, no hassle
 
-    let isLearning = false;
-    let lastQuestion = "";
-    let ttsEnabled = true;
-    let recognizing = false;
-    const chat = document.getElementById("chat");
 
-    function sanitize(text) {
-      return text.toLowerCase().replace(/[^a-z0-9 ]/g, "").trim();
-    }
+</p>
+---
 
-    function hasSynonymMatch(input) {
-      const inputSanitized = sanitize(input);
-      for (let key in memory) {
-        const keySanitized = sanitize(key);
-        if (
-          keySanitized === inputSanitized ||
-          keySanitized.includes(inputSanitized) ||
-          inputSanitized.includes(keySanitized)
-        ) {
-          return key;
-        }
-      }
-      return null;
-    }
+<h2>How It Feels to Chat with Vision</h2>
+<p>
+"It feels like I’m talking to a real person."
+<br>
 
-    function speak(text) {
-      if (ttsEnabled && window.speechSynthesis) {
-        const utterance = new SpeechSynthesisUtterance(text);
-        speechSynthesis.speak(utterance);
-      }
-    }
+– A Vision user
+<br>
+<br>
+"Vision helps me stay focused and even makes me laugh. Totally worth it."
+<br>
+– Daily user
+<br>
+<br>
+"I use Vision to help write emails, plan my day, and brainstorm ideas. It’s like a second brain."<br>
+– Content Creator
+</p>
+<br>
+---
 
-    function timestamp() {
-      const d = new Date();
-      return d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-    }
+<h2>Start Chatting in Seconds</h2>
 
-    function respond(text, sender = "bot") {
-      const message = document.createElement("div");
-      message.className = `chat-message ${sender}`;
-      message.innerHTML = `${text} <span class="time">${timestamp()}</span>`;
-      chat.appendChild(message);
-      chat.scrollTop = chat.scrollHeight;
-      if (sender === "bot") speak(text);
-    }
+<p>No signup needed. Just click above the button and meet Vision!</p>
 
-    function sendMessage() {
-      const input = document.getElementById("userInput");
-      const text = input.value.trim();
-      if (!text) return;
-      respond(text, "user");
-      input.value = "";
-      setTimeout(() => processInput(text), 400);
-    }
 
-    function processInput(input) {
-      if (input.toLowerCase().startsWith("update:")) {
-        const q = input.substring(7).trim();
-        const match = hasSynonymMatch(q);
-        if (match) {
-          isLearning = true;
-          lastQuestion = match;
-          respond(`Sure! What should be the new answer for: '${match}'?`);
-        } else {
-          respond("That question doesn't exist yet.");
-        }
-        return;
-      }
 
-      if (isLearning) {
-        const matchWhileLearning = hasSynonymMatch(input);
-        if (["skip", "no", "cancel"].includes(input.toLowerCase()) || matchWhileLearning) {
-          isLearning = false;
-          if (matchWhileLearning) {
-            respond(memory[matchWhileLearning]);
-          } else {
-            respond("Okay, learning canceled.");
-          }
-          return;
-        } else {
-          memory[lastQuestion] = input;
-          saveMemory();
-          respond("Thank you! I’ve learned something new.");
-          isLearning = false;
-          return;
-        }
-      }
 
-      const match = hasSynonymMatch(input);
-      if (match) {
-        respond(memory[match]);
-        return;
-      }
+---
 
-      const mathResult = tryMath(input);
-      if (mathResult !== null) {
-        respond(`The answer is ${mathResult}`);
-        return;
-      }
+<h3>Join the Vision Community</h3>
 
-      isLearning = true;
-      lastQuestion = input;
-      respond("I don't know about this. Could you please teach me the correct answer?");
-    }
+<p>Follow us for updates, tips, and new features!</p>
+ 
+<br>
+<br>
+</div>
 
-    function tryMath(input) {
-      try {
-        const replaced = input
-          .toLowerCase()
-          .replace(/what is|calculate|how much is/gi, "")
-          .replace(/plus/gi, "+")
-          .replace(/minus/gi, "-")
-          .replace(/times|multiplied by/gi, "*")
-          .replace(/divided by|over/gi, "/")
-          .replace(/[^0-9+\-*/().]/g, "");
-        if (!replaced) return null;
-        return eval(replaced);
-      } catch {
-        return null;
-      }
-    }
-
-    function saveMemory() {
-      localStorage.setItem("visionMemory", JSON.stringify(memory));
-    }
-
-    function exportMemory() {
-      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(memory));
-      const downloadAnchor = document.createElement("a");
-      downloadAnchor.setAttribute("href", dataStr);
-      downloadAnchor.setAttribute("download", "vision-memory.json");
-      document.body.appendChild(downloadAnchor);
-      downloadAnchor.click();
-      downloadAnchor.remove();
-    }
-
-    function importMemory() {
-      document.getElementById("fileInput").click();
-    }
-
-    document.getElementById("fileInput").addEventListener("change", function (event) {
-      const file = event.target.files[0];
-      const reader = new FileReader();
-      reader.onload = function (e) {
-        try {
-          memory = JSON.parse(e.target.result);
-          saveMemory();
-          respond("Memory imported successfully.");
-        } catch {
-          respond("Error importing memory.");
-        }
-      };
-      reader.readAsText(file);
-    });
-
-    function resetMemory() {
-      if (confirm("Are you sure you want to reset all memory?")) {
-        memory = {};
-        saveMemory();
-        respond("Memory has been reset.");
-      }
-    }
-
-    function clearChat() {
-      chat.innerHTML = "";
-    }
-
-    function toggleTTS() {
-      ttsEnabled = !ttsEnabled;
-      document.getElementById("ttsStatus").textContent = ttsEnabled ? "On" : "Off";
-    }
-
-    function toggleMic() {
-      if (!('webkitSpeechRecognition' in window)) {
-        alert("Voice recognition not supported in this browser.");
-        return;
-      }
-
-      if (recognizing) return;
-
-      const recognition = new webkitSpeechRecognition();
-      recognition.lang = "en-US";
-      recognition.start();
-      recognizing = true;
-
-      recognition.onresult = function (event) {
-        const transcript = event.results[0][0].transcript;
-        document.getElementById("userInput").value = transcript;
-        sendMessage();
-        recognizing = false;
-      };
-
-      recognition.onerror = function () {
-        recognizing = false;
-      };
-    }
-    
-    
-  </script>
-  <script>
-      function openPanel() {
-    document.getElementById("myPanel").style.width = "200px";
+ <!-- Footer -->
+  <footer class="footer">
+    <div>
+        <p><h2>Vision</h3> 1.0.0 apex</p>
+      <strong> AI Chatbot</strong><br><br>
+      Revolutionizing conversations through smart, human-like interaction. Vision is your digital assistant, companion, and co-creator.<br>
+      &copy; 2025 VisionAI. All rights reserved.
+    </div>
+    <div class="social-icons">
+      <a href="#">Privacy Policy</a> |
+      <a href="#">Terms of Use</a> |
+      <a href="#">Contact</a><br><br>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+<!-- JavaScript -->
+<script>
+  function openPanel() {
+    document.getElementById("myPanel").style.width = "550px";
   }
 
 function closePanel() {
@@ -644,62 +373,17 @@ function closePanel() {
 var text = document.getElementById("text"); document.getElementById("myPanel").style.width = "0";
   }
   
-  function changeImage() {
-  var img = document.getElementById("wed");
-  var text = document.getElementById("body");
-  var inputcolor = document.getElementById("userInput");
-  var outputcolor =   document.getElementById("chat");
-  var speak = document.getElementById("speak");
-  var rec = document.getElementById("rec");
-  var tts = document.getElementById("tts");
-  var send1 = document.getElementById("send1");
-  var user = document.getElementsByClassName('user');
-  var bot = document.getElementsByClassName('bot');
-  var apex = document.getElementById('apex');
-  var userinput = document.getElementById('userInput');
-
-  
+ function changeImage() {
+  var img = document.getElementById("theem");
 
   if (img.src.includes("66275.png")) {
     img.src = "1812660.png";
-    text.style.background = "";
-    inputcolor.style.background = "";
-    outputcolor.style.background = "";
-    speak.style.background = "";
-    rec.style.background = "";
-    tts.style.background = "";
-    speak.style.color = "";
-    rec.style.color = "";
-    tts.style.color = "";
-    apex.style.color = "";
-    userinput.style.color = "";
-    send1.src = "Screenshot_20250418-182257~4.jpg";
-    send1.style.padding = "";
+    text.style.color = "black";
   } else if (img.src.includes("1812660.png")) {
     img.src = "66275.png";
-    text.style.background = "white";
-    inputcolor.style.background = "white";
-    outputcolor.style.background = "white";
-    speak.style.background = "white";
-    rec.style.background = "white";
-    tts.style.background = "white";
-    speak.style.color = "black";
-    rec.style.color = "black";
-    tts.style.color = "black";
-    apex.style.color = "black";
-    userinput.style.color = "black";
-    send1.src = "3031716.png";
-    send1.style.padding = "13px";
-    
+    text.style.color = "white";
   }
 }
-
-function shadow() {
-   
-    
-}
-
-
-  </script>
+</script>
 </body>
 </html>
